@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+.container {
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+header {
+	background-image: url(../imgs/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: 'Open Sans', Helvetica, Arial;
+	min-height: 841px;
+}
+
+header section#promo-area {
+	background: rgba(0, 0, 0, 0.5);
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+
+header section#promo-area .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+header section#promo-area .container a {
+	padding-left: 10px;
+}
+
+header nav {
+	padding-top: 29px;
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav ul li {
+	display: inline;
+	margin-left: 50px;
+}
+
+header nav ul li a {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	color: #FF8C69;
+
+}
+
+section#sale {
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Open Sans', Helvetica, Arial;
+}
+
+section#sale div {
+	display: inline-block;
+	margin-top: 79px;
+	margin-bottom: 79px;
+}
+
+section#sale div figure {
+	padding: 10px;
+}
+
+section#sale div figure figcaption p.item {
+	font-size: 16px;
+	font-weight: bold;
+	color: #FF8C69;
+	text-align: center;
+}
+
+section#sale div figure figcaption p.codigo {
+	font-size: 12px;
+	font-weight: lighter;
+	color: #6D6D6D;
+	text-align: center;
+	padding: 10px;
+}
+
+section#sale div figure figcaption p.valor {
+	font-size: 25px;
+	font-weight: bold;
+	color: #8E8E8E;
+	text-align: center;
+	padding:10px;
+}
+
+section#sale div figure button {
+	background: #FF8C69;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: bold;
+	border: none;
+	border-radius: 15px;
+	padding: 10px 30px 10px 30px;
+	margin-left: 25%;
+	margin-right: 30%;
+	display: none;
+}
+
+section#sale div figure button:hover {
+	background-color: #C1512F;
+}
+
+
